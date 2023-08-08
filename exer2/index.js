@@ -1,3 +1,10 @@
+const rainbow = ["Vermelho", "Laranja", "Preto", "Azul"];
+console.log(rainbow.splice(2, 1))
+console.log(rainbow)
+console.log(rainbow.splice(3, 0, 'Amarelo', 'Verde'))
+console.log(rainbow)
+console.log(rainbow.splice(5, 0, 'Roxo'))
+console.log(rainbow)
 
 
 // 2. James estava criando uma array com as cores do arco-íris, e ele
